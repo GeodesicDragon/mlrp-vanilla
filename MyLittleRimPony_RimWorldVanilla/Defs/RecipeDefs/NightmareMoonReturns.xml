@@ -1,0 +1,158 @@
+<Defs>
+
+<!--RETURN PERSONA CORE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_AIPersonaCoreForChocolate</defName>
+	<label>return persona core</label>
+	<description>Return a persona core in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>AIPersonaCore</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>133</Chocolate>
+	</products>
+</RecipeDef>
+
+<!--RETURN HEALER MECH SERUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MechSerumHealerForChocolate</defName>
+	<label>return healer mech serum</label>
+	<description>Return a healer mech serum in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MechSerumHealer</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>43</Chocolate>
+	</products>
+</RecipeDef>
+
+<!--RETURN RESURRECTOR MECH SERUM-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_MechSerumResurrectorForChocolate</defName>
+	<label>return resurrector mech serum</label>
+	<description>Return a resurrector mech serum in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>MechSerumResurrector</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>57</Chocolate>
+	</products>
+</RecipeDef>
+
+<!--RETURN TECHPROF SUBPERSONA CORE-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_TechprofSubpersonaCoreForChocolate</defName>
+	<label>return techprof subpersona core</label>
+	<description>Return a techprof subpersona core in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>TechprofSubpersonaCore</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>33</Chocolate>
+	</products>
+</RecipeDef>
+
+<!--RETURN THRUMBO HORN-->
+
+<RecipeDef>
+	<defName>MLRP_NMM_ThrumboHornForChocolate</defName>
+	<label>return thrumbo horn</label>
+	<description>Return a thrumbo horn in exchange for chocolate.</description>
+    <jobString>Returning an item to Nightmare Moon</jobString>
+    <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <workAmount>300</workAmount>
+	<recipeUsers>
+		<li>MLRP_NightmareMoon</li>
+	</recipeUsers>
+    <ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>ThrumboHorn</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<products>
+		<Chocolate>27</Chocolate>
+	</products>
+</RecipeDef>
+
+</Defs>

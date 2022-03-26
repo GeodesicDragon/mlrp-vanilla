@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[MLP] My Little RimPony (for RimWorld v1.0)</name>
+	<author>GeodesicDragon</author>
+	<packageId>geodesicdragon.rimpony.vanillarimworld</packageId>
+	<url>https://discord.gg/BGKnpza</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<incompatibleWith>
+		<li>geodesicdragon.rimpony</li>
+		<li>geodesicdragon.rimpony.ideology</li>
+		<li>geodesicdragon.rimpony.cepatch</li>
+	</incompatibleWith>
+	<description>This version of My Little RimPony is compatible with RimWorld 1.0, but please be aware that a lot of things are different compared to the version compatible with the latest version of the game. Some things may be changed, while other things may have been removed entirely; you can refer to the list below for details.
+	
+* Removed elite mercenary pawns from NPC faction as they use armour introduced in Royalty.
+* Removed references to vegetarian fine/lavish meals, as they were added in Ideology.
+* Regular mercenary pawns from the NPC faction will use flak armour, as recon armour was added in the 1.1 patch (Source: RimWorld wiki).
+* The Brony Community scenario no longer starts with horses, as they were added in the 1.1 patch (Source: RimWorld wiki).
+* Researching the Evil Sisters statues doesn't require techprints, but the research cost has been increased to 8500.
+* Scootaloo now increases movement speed by 15% (only because I couldn't think of anything else).
+* Nurse Redheart has been removed.
+* Sweetie Bot turrets has been removed.
+* The Orbital Friendship Cannon has been removed.
+* The Izzy Moonbow plush has been removed.
+* The tennis ball launcher has been removed.
+* The anti brony trait has been removed.
+* No patches for other mods will be applied.
+* Bronies don't get mood buffs from equipping plushies.
+* Bronies will have a negative opinion of pawns with either of the 'Ugly' traits.
+* Bronies don't have a positive opinion of other bronies.</description>
+</ModMetaData>

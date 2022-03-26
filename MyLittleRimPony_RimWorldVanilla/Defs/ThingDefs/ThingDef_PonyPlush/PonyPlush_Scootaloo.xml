@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="PonyPlushBase">
+    <thingClass>Apparel</thingClass>
+    <defName>PonyPlush_Scootaloo</defName>
+    <label>Scootaloo</label>
+    <description>Although Scootaloo's wings hamper her ability to fly, they allow her to go quite fast while riding her scooter. She's not as fast as Rainbow Dash, but she's getting there.\n\nCarrying her makes you feel a bit faster.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/PonyPlush/Scootaloo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <equippedStatOffsets>
+      <MoveSpeed>0.15</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+</Defs>

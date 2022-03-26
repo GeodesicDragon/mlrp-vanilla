@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="MLRP_BronyKinds" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>MLRP_NPC_Faction</defaultFactionType>
+    <backstoryCategories>
+		<li>Civil</li>
+		<li>Traveler</li>
+		<li>Tribal</li>
+    </backstoryCategories>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <invNutrition>2</invNutrition>
+    <invFoodDef>MealFine</invFoodDef>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>55</maxGenerationAge>
+    <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>0</max>
+    </combatEnhancingDrugsCount>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_VillagerBase" Abstract="True">
+	<itemQuality>Normal</itemQuality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_MercBase" Abstract="True">
+	<itemQuality>Good</itemQuality>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="MLRP_BronyKinds" Name="MLRP_BronyKinds_MeleeMercBase" Abstract="True">
+	<itemQuality>Good</itemQuality>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
+    <defName>Brony_Leader</defName>
+	<factionLeader>true</factionLeader>
+    <baseRecruitDifficulty>0.90</baseRecruitDifficulty>
+    <label>leader</label>
+	<labelPlural>leader</labelPlural>
+    <combatPower>40</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_FlakJacket</li>
+      <li>Apparel_FlakPants</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_AdvancedHelmet</li>
+	  <li>PonyPlush_BigMacintosh</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>250</min>
+      <max>1000</max>
+    </apparelMoney>
+	<isFighter>false</isFighter>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
+    <defName>Brony_Villager</defName>
+    <baseRecruitDifficulty>0.1</baseRecruitDifficulty>
+    <label>villager</label>
+	<labelPlural>villagers</labelPlural>
+    <combatPower>40</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+	<apparelRequired>
+		<li>Apparel_FlakVest</li>
+		<li>PonyPlush_BigMacintosh</li>
+    </apparelRequired>
+	<weaponTags>
+	  <li>WifeThrower</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>600</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>250</min>
+      <max>1000</max>
+    </apparelMoney>
+	<isFighter>false</isFighter>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_BronyKinds_VillagerBase">
+    <defName>Brony_Trader</defName>
+    <baseRecruitDifficulty>0.1</baseRecruitDifficulty>
+    <label>trader</label>
+	<labelPlural>traders</labelPlural>
+    <combatPower>45</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+	<apparelRequired>
+		<li>Apparel_FlakVest</li>
+		<li>PonyPlush_BigMacintosh</li>
+		<li>Apparel_BowlerHat</li>
+    </apparelRequired>
+	<weaponTags>
+	  <li>WifeThrower</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>600</max>
+    </weaponMoney>
+    <apparelMoney>
+      <min>250</min>
+      <max>1000</max>
+    </apparelMoney>
+	<isFighter>false</isFighter>
+	<trader>true</trader>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_BronyKinds_MercBase">
+    <defName>Brony_Mercenary</defName>
+    <baseRecruitDifficulty>0.3</baseRecruitDifficulty>
+    <label>brony mercenary</label>
+	<labelPlural>brony mercenaries</labelPlural>
+    <combatPower>60</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryBasic</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_FlakJacket</li>
+      <li>Apparel_FlakPants</li>
+      <li>Apparel_FlakVest</li>
+      <li>Apparel_AdvancedHelmet</li>
+	  <li>PonyPlush_RainbowDash</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>450</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>AssaultRifle</li>
+	  <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+</PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_BronyKinds_MeleeMercBase">
+    <defName>Brony_Mercenary_Melee</defName>
+    <baseRecruitDifficulty>0.6</baseRecruitDifficulty>
+    <label>melee brony mercenary</label>
+	<labelPlural>melee brony mercenaries</labelPlural>
+    <combatPower>60</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialMilitaryAdvanced</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_PlateArmor</li>
+      <li>Apparel_AdvancedHelmet</li>
+	  <li>PonyPlush_RainbowDash</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>420</min>
+      <max>650</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>Axe</li>
+	  <li>MedievalMeleeDecent</li>
+	  <li>MedievalMeleeAdvanced</li>
+	  <li>LongSword</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+</PawnKindDef>
+
+</Defs>

@@ -1,0 +1,8 @@
+Version 1.0.3 (March 25th 2022)
+
+* Fixed missing textures (by actually adding the Textures folder).
+* Fixed missing sounds (by actually adding the Sounds folder).
+
+Version 1.0.1 (March 24th 2022)
+
+* Initial Release.

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="MLRP_PlayerFactionBase">
+	<homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <colorSpectrum>
+	  <!--<li>(255, 192, 203)</li>-->
+	  <li>(0.5, 0.5, 0.5)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="MLRP_PlayerFactionBase">
+    <defName>MLRP_BronyFaction</defName>
+	<label>Brony Community</label>
+    <description>A colony of people who are united by their love of My Little Pony: Friendship is Magic.\n\nMostly pacifist.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>MLRP_BronyPlayer</basicMemberKind>
+    <pawnSingular>brony</pawnSingular>
+    <pawnsPlural>bronies</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryCategories>
+		<li>Civil</li>
+		<li>Traveler</li>
+		<li>Tribal</li>
+    </backstoryCategories>
+    <expandingIconTexture>Things/EquestrianFlag</expandingIconTexture>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>MLRP_BronyNames</factionNameMaker>
+    <settlementNameMaker>MLRP_BronySettlementNames</settlementNameMaker>
+    <geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+	<hairTags>
+		<li>Punk</li>
+		<li>Rural</li>
+		<li>Tribal</li>
+		<li>Urban</li>
+	</hairTags>
+  </FactionDef>
+</Defs>
